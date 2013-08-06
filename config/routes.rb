@@ -1,4 +1,7 @@
 RafflerAngularjs::Application.routes.draw do
+  resources :entries
+
+
   root to: "raffle#index"
 
   # The priority is based upon order of creation:
